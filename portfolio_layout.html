@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eli's Portfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaQ.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico" />
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome" />
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=iconicfill" />
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="images/icon_01.svg" class="title-img" alt="sun-icon logo">
+        </div>
+        <div class="header__title">
+            <h1 class="title-super text-thin">Eli Morris Lichter-Marck</h1>
+            <h4 class="title-mini">Towhee Designs</h4>
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <nav id="drawer" class="nav">
+            <ul class="nav__list">
+                <li class="nav__item" data-toggle="modal" data-target="#title"><a href="#">ABOUT</a></li>
+                <li class="nav__item"><a href="#">PROJECTS</a></li>
+                <li class="nav__item"><a href="#">CONTACT</a></li>
+                <li class="nav__item"><a href="#">LINKS</a></li>
+            </ul>
+        </nav>
+        <div class="navBar">
+            <div class="holder"></div>
+            <a id="menu" class="header__menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="whitesmoke">
+                    <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"> </path>
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <div class="hero">
+            <h1 class="intro__title text-thin">Natural Progression Designs.</h1>
+            <picture class="hero-img">
+                <source media="(min-width: 750px)" srcset="images/raw013_1600_large_2x.jpg 2x, images/raw013_750_large_1x.jpg" />
+                <source media="(min-width: 500px)" srcset="images/raw013-medium.jpg" />
+                <img src="images/raw013-small.jpg" alt="Image of treehouse at Ethyl's house in rustic canyon">
+            </picture>
+            <p class="body__text">a show of design based projects both digital and physicial, showcasing the skills learned though the udacity web design program and the best of the best of the best of the best</p>
+        </div>
+        <section class="content">
+            <h2 class="text-muted section__title">Featured Work</h2>
+            <div class="digital">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/bee1-1000.jpg 2x, images/bee1.jpg" />
+                        <img src="images/bee1.jpg" class="img-responsive" alt="Image of a honey bee" data-toggle="modal" data-target="#digital">
+                    </picture>
+                    <figcaption>
+                        <p><a href="http://github.com">link to projects</a></p>
+                    </figcaption>
+                </figure>
+                <h3 class="description">Digital</h3>
+            </div>
+            <div class="landscape">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw005-1000.jpg 2x, images/raw005.jpg" />
+                        <img src="images/raw005.jpg" class="img-responsive" alt="The great landscape" data-toggle="modal" data-target="#landscape">
+                    </picture>
+                    <figcaption>
+                        <p><a href="http://github.com">link to projects</a></p>
+                    </figcaption>
+                </figure>
+                <h3 class="description">Landscape</h3>
+            </div>
+            <div class="energy">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw006-1000.jpg 2x, images/raw006.jpg" />
+                        <img src="images/raw006.jpg" class="img-responsive" alt="a portfolio image" data-toggle="modal" data-target="#adventure">
+                    </picture>
+                    <figcaption>
+                        <p><a href="http://github.com">link to projects</a></p>
+                    </figcaption>
+                </figure>
+                <h3 class="description">Adventure</h3>
+            </div>
+            <div class="scientific">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw004-1000.jpg 2x, images/raw004.jpg" />
+                        <img src="images/raw004.jpg" class="img-responsive" alt="Making measurements" data-toggle="modal" data-target="#scientific">
+                    </picture>
+                    <figcaption>
+                        <p><a href="http://github.com">link to projects</a></p>
+                    </figcaption>
+                </figure>
+                <h3 class="description">Scientific</h3>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footerbar">
+        <ul class="social">
+            <li class="social__icon fontawesome-envelope"></li>
+            <li class="social__icon brandico-instagram"></li>
+        </ul>
+        <p class="info">built by eli lichter marck | Fall 2015</p>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="digital" tabindex="-1" role="dialog" aria-labelledby="myModalLabel01" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel01">Digital Design</h4>
+                </div>
+                <div class="modal-body">
+                    <!--add further description of projects included-->
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/IMG_4986-1000.jpg 2x, images/IMG_4986.jpg" />
+                        <img class="img-responsive" src="images/IMG_4986.jpg" alt="father and son beekeeping">
+                    </picture>
+                    <p class="description__text">Front-end web design using html and css; parametric programming and 3D modelling using Grasshopper for Rhino 3D; python; description of projects shown here...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="landscape" tabindex="-1" role="dialog" aria-labelledby="myModalLabel02" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel02">Design/Build</h4>
+                </div>
+                <div class="modal-body">
+                    <!--add further description of projects included-->
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw009-1000.jpg 2x, images/raw009.jpg" />
+                        <img class="img-responsive" src="images/raw009.jpg" alt="father and son beekeeping">
+                    </picture>
+                    <p class="description__text">Selection of design build projects.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="adventure" tabindex="-1" role="dialog" aria-labelledby="myModalLabel03" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel03">Adventure</h4>
+                </div>
+                <div class="modal-body">
+                    <!--add further description of projects included-->
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw008-1000.jpg 2x, images/raw008.jpg" />
+                        <img class="img-responsive" src="images/raw008.jpg" alt="father and son beekeeping">
+                    </picture>
+                    <p class="description__text"> Adventures around the world.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="scientific" tabindex="-1" role="dialog" aria-labelledby="myModalLabel04" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel04">Research Projects</h4>
+                </div>
+                <div class="modal-body">
+                    <!--add further description of projects included-->
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw012-1000.jpg 2x, images/raw012.jpg" />
+                        <img class="img-responsive" src="images/raw012.jpg " alt="father and son beekeeping">
+                    </picture>
+                    <p class="description__text">Include info on research projects.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="title" tabindex="-1" role="dialog" aria-labelledby="myModalLabel00" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel00">Hello!</h4>
+                </div>
+                <div class="modal-body">
+                    <!--add further description of projects included-->
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="images/raw003-1000.jpg 2x, images/raw003.jpg" />
+                        <img class="img-responsive" src="images/raw003.jpg" alt="father and son beekeeping">
+                    </picture>
+                    <p class="description__text">This is my portfolio page.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    /*
+     * Open the drawer when the menu ison is clicked.
+     */
+    var menu = document.querySelector('#menu');
+    var main = document.querySelector('main');
+    var drawer = document.querySelector('.nav');
+
+    menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+    });
+    main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+    });
+    </script>
+</body>

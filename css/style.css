@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+/*
+ *
+ * Text
+ *
+ */
+
+h1 {
+    font-size: 48px;
+}
+
+.text-muted {
+    color: #BCBBBB;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.body__text {}
+
+figurecaption a {
+    color: grey;
+}
+
+.modal-body,
+.modal-header,
+.modal-footer,
+.btn-default {
+    background-color: lightgrey;
+    border: 0px;
+    border-top: 0px;
+}
+
+
+/*
+ *
+ * Common
+ *
+ */
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    list-style-type: none;
+}
+
+.social__icon {
+    float: right;
+    padding: 2em;
+}
+
+
+/* brandico */
+
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+    display: inline-block;
+    color: black;
+    font-size: 1.75em
+}
+
+
+/* fontawesome */
+
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+    display: inline-block;
+    color: black;
+    font-size: 1.75em
+}
+
+
+/* iconicfill */
+
+[class*="iconicfill-"]:before {
+    font-family: 'IconicFill', sans-serif;
+    display: inline-block;
+    color: black;
+    font-size: 1.75em
+}

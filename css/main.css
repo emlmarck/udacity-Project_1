@@ -1,0 +1,279 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*
+
+* {
+    outline: 1px solid red !important;
+}
+/*
+ *
+ * Common
+ *
+ */
+
+img,
+svg,
+emded,
+object,
+video {
+    max-width: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    color: grey;
+    max-width: 950px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header__logo {
+    order: 0;
+    width: 100%;
+    margin:auto;
+}
+
+.header__title {
+    padding: 10px;
+    width: 100%;
+}
+
+.title-img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-super {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.title-mini {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+
+/*
+ *
+ * NAV
+ *
+ */
+
+.intro__title {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    height: 60px;
+    background-color: black;
+}
+
+nav a,
+button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.nav {
+    z-index: 10;
+    background-color: black;
+    width: 300px;
+}
+
+.nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.nav__item {
+    display: list-item;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #616161;
+    padding: 1.5em;
+}
+
+.nav a:hover {
+    color: #212121;
+}
+
+.nav__list {
+    width: 100%;
+}
+
+.nav__item {
+    width: 24%;
+    text-transform: uppercase;
+}
+
+.header__menu {
+    right: 0;
+    padding: 1em;
+}
+
+.header__menu svg {
+    display: block;
+    width: 32px;
+}
+
+.holder {
+    width: 90%;
+}
+
+
+/*
+ *
+ * content
+ *
+ */
+
+.body__text {
+    max-width: 600px;
+    text-align: center;
+    text-align: justify;
+    margin: auto;
+    padding: 50px;
+}
+
+.hero-img {
+    margin-top: 10px;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+}
+
+
+/* Do not scale the image
+    opacity: .7;
+    object-fit: none;
+    object-position: center;
+    /* Center the image within the element */
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.section__title {
+    padding: 50px;
+    width: 100%;
+    order: 0;
+    text-align: center;
+}
+
+.home {
+    width: 10%;
+}
+
+.digital {
+    width: 100%;
+    padding: 1em;
+}
+
+.landscape {
+    width: 100%;
+    padding: 1em;
+}
+
+.energy {
+    width: 100%;
+    padding: 1em;
+}
+
+.scientific {
+    width: 100%;
+    padding: 1em;
+}
+
+.description {
+    text-align: center;
+    margin: auto;
+}
+
+.description__text {
+    text-align: center;
+    margin: auto;
+}
+
+.img-responsive {
+    margin: auto;
+}
+
+
+/*
+*
+*
+* footer
+*
+*
+ */
+
+.footerbar {
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+}
+
+.info {
+    font-size: 12px;
+    order: 10;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}

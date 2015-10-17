@@ -1,0 +1,111 @@
+@media screen and (max-width:749px) {
+    .nav {
+        z-index: 10;
+        background-color: black;
+        width: 300px;
+        position: absolute;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-500px, 0);
+        transform: translate(-500px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .header__title {
+        margin-top: 5px;
+        padding: 40px;
+        width: 70%;
+        text-align: center;
+    }
+    .title-super {
+        text-align: right;
+    }
+    .title-mini {
+        text-align: right;
+    }
+    .header__logo {
+        order: 0;
+        width: 30%;
+    }
+    .title-img {
+        display: flex;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .title-super {
+        font-size: 36px;
+    }
+    .title-mini {
+        text-align: right;
+    }
+    .header__menu {
+        display: none;
+    }
+    .digital {
+        width: 50%;
+    }
+    .landscape {
+        width: 50%;
+    }
+    .energy {
+        width: 50%;
+    }
+    .scientific {
+        width: 50%;
+    }
+    /*
+ *
+ * Top Level Navigation
+ *
+ */
+    .nav {
+        background-color: black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav__list {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .nav__item {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 24%;
+        text-align: center;
+        line-height: 12px;
+        padding: 12px;
+        text-transform: uppercase;
+    }
+    .nav a {
+        text-decoration: none;
+        color: #616161;
+        padding: 1.5em;
+    }
+    .nav a:hover {
+        text-decoration: underline;
+        color: #212121;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    body {
+        max-width: 950px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+
